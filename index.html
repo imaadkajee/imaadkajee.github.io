@@ -1,0 +1,412 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Imaad Kajee</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="Portfolio of Imaad Kajee showcasing projects, skills, and experience in software development." />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #intro {
+            background: linear-gradient(135deg, #1a1f3c, #007bff);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #cv {
+            background: #f9f9f9;
+            padding: 60px 20px;
+            border-top: 5px solid #007bff;
+            box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .cv-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            .cv-table th, .cv-table td {
+                border: 1px solid #ddd;
+                padding: 15px;
+                text-align: left;
+            }
+
+            .cv-table th {
+                background: #007bff;
+                color: white;
+                font-weight: bold;
+            }
+
+        #header {
+            position: sticky;
+            top: 0;
+            background: #1a1f3c;
+            color: white;
+            padding: 15px 20px;
+            z-index: 1000;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+            .button:hover {
+                background: #2ebf91;
+                color: white;
+                transform: scale(1.05);
+            }
+
+        .icons a {
+            color: #1a1f3c;
+            font-size: 20px;
+            margin: 0 5px;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+            .icons a:hover {
+                color: #ffd700;
+                transform: scale(1.2);
+            }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            text-align: center;
+            display: none;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+            .back-to-top:hover {
+                background: #2ebf91;
+                transform: scale(1.1);
+            }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header.major h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #1a1f3c;
+            font-size: 28px;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: center;
+        }
+
+            .actions .button {
+                margin: 0 10px;
+            }
+
+        footer {
+            background: #1a1f3c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+            footer h3 {
+                margin-bottom: 10px;
+                font-size: 18px;
+            }
+
+            footer a {
+                color: #ffd700;
+                text-decoration: none;
+            }
+
+                footer a:hover {
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Intro -->
+        <div id="intro">
+            <h1>
+                Imaad Kajee
+            </h1>
+            <p>My Portfolio that gives you insight about my history and work achievements.</p>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
+
+        <!-- Header -->
+
+        <header id="header">
+            <a href="index.html" class="logo">Welcome to Imaad Kajee's Portfolio</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">My Portfolio</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
+        <ul class="actions special">
+            <li><a href="https://github.com/YourUsername" class="button large github-button" target="_blank">Visit My GitHub</a></li>
+        </ul>
+
+        <style>
+            .github-button {
+                background-color: white; /* White background */
+                color: #1a1f3c; /* Dark text color for contrast */
+                font-size: 16px;
+                padding: 12px 20px;
+                border-radius: 5px;
+                border: 2px solid #1a1f3c; /* Border color to match text */
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.3s ease;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+                .github-button:hover {
+                    background-color: #f1f1f1; /* Light grey on hover */
+                    color: #007bff; /* Change text color on hover */
+                    transform: scale(1.05);
+                }
+        </style>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Featured Post -->
+            <article class="post featured">
+                <header class="major">
+                    <h2>
+                        <a href="#">
+                            Explore<br />
+                            My Featured Projects
+                        </a>
+                    </h2>
+                    <p>
+                        Highlighting my best work and achievements in software development and beyond.
+                    </p>
+                </header>
+                <a href="#" class="image main">
+                    <img src="images/Imaad Kajee.jpeg" alt="Sample featured image" style="width: 50%; height: auto;" />
+                </a>
+                <section id="download-cv" style="text-align: center; padding: 40px 20px; background: #f5f5f5;">
+                    <h2>Download My CV</h2>
+                    <p>Click the button below to download a PDF copy of my CV.</p>
+                    <a href="assets/docs/CV.pdf" class="button" download="Imaad_Kajee_CV.pdf">Download CV</a>
+                </section>
+
+                <section id="about-me" style="background: #ffffff; padding: 60px 20px; text-align: center;">
+                    <h2>About Me</h2>
+                    <div style="max-width: 800px; margin: 0 auto; text-align: left;">
+                        <img src="images/aboutme.png" alt="Your Photo" style="width: 150px; height: 150px; border-radius: 50%; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+                        <p style="font-size: 18px; color: #333333; line-height: 1.6;">
+                            Hello! My name is <strong>Imaad Kajee</strong>, a motivated Computer Science student with a passion for sports and a solid foundation in Mobile App Development, Cybersecurity, Programming Languages, and Software Development.
+                        </p>
+                        <p style="font-size: 18px; color: #333333; line-height: 1.6;">
+                            Enthusiastic and hardworking, with proven organizational and communication skills, adaptable to changing conditions.
+                        <p style="font-size: 18px; color: #333333; line-height: 1.6;">
+                            In addition to my technical skills, I am a team player who thrives in collaborative environments. I believe in the power of teamwork and communication, and I always strive to create a positive and productive atmosphere in any project I am involved in.
+                        </p>
+                        <p style="font-size: 18px; color: #333333; line-height: 1.6;">
+                            When I’m not coding, you can find me exploring new technologies, playing sports, or enjoying time with family and friends. I am always eager to learn new things and challenge myself to achieve my goals.
+                        </p>
+                        <div style="margin-top: 40px;">
+                            <a href="assets/docs/imaad letter of recomendation.pdf"
+                               download="Letter_of_Recommendation"
+                               style="padding: 12px 25px; background-color: #007bff; color: #ffffff; font-size: 18px; text-decoration: none; border-radius: 5px; display: inline-block;">
+                                Recommendation #1
+                            </a>
+                            <a href="assets/docs/imaadkaj.pdf"
+                               download="Letter_of_Recommendation"
+                               style="padding: 12px 25px; background-color: #007bff; color: #ffffff; font-size: 18px; text-decoration: none; border-radius: 5px; display: inline-block;">
+                                Recommendation #2
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section id="experience" style="background: #f5f5f5; padding: 60px 20px; text-align: center;">
+                    <h2>Experience</h2>
+                    <div style="max-width: 1000px; margin: 0 auto; text-align: left;">
+                        <div class="experience-item" style="margin-bottom: 40px;">
+                            <h3 style="font-size: 24px; color: #007bff;">Software Developer Intern</h3>
+                            <p style="font-size: 18px; color: #333333; font-weight: bold;">XYZ Tech Solutions</p>
+                            <p style="font-size: 16px; color: #333333; font-style: italic;">June 2023 - August 2023</p>
+                            <p style="font-size: 18px; color: #333333; line-height: 1.6;">
+                                During my internship at XYZ Tech Solutions, I worked on developing and testing web applications. I collaborated with a team of developers to design user-friendly interfaces and ensure functionality across various platforms. My key contributions included implementing new features, debugging code, and optimizing database queries to improve performance.
+                            </p>
+                        </div>
+
+                        <div class="experience-item" style="margin-bottom: 40px;">
+                            <h3 style="font-size: 24px; color: #007bff;">Junior Web Developer</h3>
+                            <p style="font-size: 18px; color: #333333; font-weight: bold;">ABC Digital Agency</p>
+                            <p style="font-size: 16px; color: #333333; font-style: italic;">September 2022 - May 2023</p>
+                            <p style="font-size: 18px; color: #333333; line-height: 1.6;">
+                                At ABC Digital Agency, I played a key role in the development of client websites, focusing on front-end technologies like HTML, CSS, and JavaScript. I worked closely with the design team to ensure that websites were visually appealing and fully responsive. My responsibilities also included maintaining website content and troubleshooting issues to ensure smooth functionality.
+                            </p>
+                        </div>
+
+                        <div class="experience-item" style="margin-bottom: 40px;">
+                            <h3 style="font-size: 24px; color: #007bff;">Freelance Web Developer</h3>
+                            <p style="font-size: 18px; color: #333333; font-weight: bold;">Self-Employed</p>
+                            <p style="font-size: 16px; color: #333333; font-style: italic;">January 2021 - Present</p>
+                            <p style="font-size: 18px; color: #333333; line-height: 1.6;">
+                                As a freelance web developer, I have had the opportunity to work on a variety of projects, from personal blogs to small business websites. I specialize in building custom websites tailored to clients' needs, focusing on performance, scalability, and SEO optimization. I also provide ongoing support and maintenance to ensure client satisfaction and site security.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <!-- Former Education Section -->
+            <section id="education" style="background: #f5f5f5; padding: 60px 20px; text-align: center;">
+                <h2>Tertiary</h2>
+                <table class="cv-table">
+                    <thead>
+                        <tr>
+                            <th>Degree</th>
+                            <th>Institution</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Bachelor of Computer and Information Science, Programming Languages: Java, C#, Kotlin
+                                Web Development: HTML, CSS, ASP.NET MVC
+                                Software Development: GitHub, Problem-Solving abilities, Critical Thinking
+                                Database Management: SQL, Firebase
+                                Cloud Computing: Microsoft Azure, Firebase
+                                Project Management: Management tools, Agile Methodologies, SDLC, Administrative skills
+                                Data Analysis
+                                Communication & Teamwork: Verbal and Written Communication, Computer Literacy
+                            </td>
+                            <td>Varsity College</td>
+                            <td>2022 - Present</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </section>
+            <section id="education" style="background: #f5f5f5; padding: 60px 20px; text-align: center;">
+                <h2>Former Education</h2>
+                <table class="cv-table">
+                    <thead>
+                        <tr>
+                            <th>Logo</th>
+                            <th>School</th>
+                            <th>Year Of Completion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align: center;">
+                                <img src="images/school logo.png" alt="Westville Boys High School Logo" style="width: 350px; height: auto; border-radius: 5px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+                            </td>
+                            <td>
+                                Westville Boys High School <br>
+                                <p style="font-size: 14px; color: #555;">Activities and Societies: Tennis, Cricket, Soccer, Rugby, Computer Task Team</p>
+                                <p style="font-size: 14px; color: #555; text-align: left;">
+                                    Activities and Societies: Tennis, Cricket, Soccer, Rugby, Computer Task Team
+
+                                    My five years at Westville Boys High School were transformative, filled with opportunities for growth, camaraderie, and learning. From the outset, I embraced the vibrant school culture, forging lifelong friendships and finding joy in both academics and extracurricular activities.
+
+                                    The school’s strong sense of brotherhood fostered lasting connections and a profound sense of belonging. Participating in sports like tennis, cricket, soccer, and rugby not only enhanced my athletic abilities but also taught me valuable lessons in teamwork, perseverance, and discipline. My involvement with the Computer Task Team allowed me to develop my technical skills and contribute to technology-driven initiatives, further strengthening my problem-solving abilities and leadership qualities.
+
+                                    This enriching experience at Westville Boys High School played a pivotal role in shaping my character and values, equipping me with skills and cherished memories that continue to inspire and guide me today
+                                </p>
+                            </td>
+                            <td>2017 - 2021</td>
+                        </tr>
+                        <!-- Add more rows here if needed -->
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" style="background: #f5f5f5; padding: 60px 20px; text-align: center;">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out for collaborations or inquiries.</p>
+                <div style="margin-top: 20px;">
+                    <p><strong>Email:</strong> <a href="imaadkajee@gmail.com" style="color: #007bff; text-decoration: none;">imaadkajee@gmail.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:+27 84 877 8635" style="color: #007bff; text-decoration: none;">+27 84 877 8635</a></p>
+                    <p><strong>Location:</strong> Durban, South Africa</p>
+                </div>
+                <div class="icons" style="margin-top: 20px;">
+                    <a href="#" class="icon brands fa-linkedin" style="font-size: 24px; color: #007bff; margin: 0 10px;" title="LinkedIn"></a>
+                    <a href="#" class="icon brands fa-github" style="font-size: 24px; color: #007bff; margin: 0 10px;" title="GitHub"></a>
+                    <a href="#" class="icon brands fa-twitter" style="font-size: 24px; color: #007bff; margin: 0 10px;" title="Twitter"></a>
+                </div>
+            </section>
+
+
+            <!-- Back-to-Top Button -->
+            <a href="#top" class="back-to-top">&uarr; Back to Top</a>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            // Show Back-to-Top Button on Scroll
+            window.addEventListener('scroll', function () {
+                const button = document.querySelector('.back-to-top');
+                if (window.scrollY > 200) {
+                    button.style.display = 'block';
+                } else {
+                    button.style.display = 'none';
+                }
+            });
+        </script>
+</body>
+</html>
